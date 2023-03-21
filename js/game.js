@@ -73,10 +73,10 @@ play(){
                 
                 if(player.score>=5){
                     player.rank += 1;
-                    updatePlayerAtEnd(player.rank);
+                    Player.updatePlayerAtEnd(player.rank);
 
                   
-                    Player.update();
+                    player.update();
                     this.showRank();
                     gameState = 2; 
 
